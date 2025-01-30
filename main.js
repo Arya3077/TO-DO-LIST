@@ -1,3 +1,5 @@
 const todolist= document.getElementsByClassName("todolist");
-const list= document.getElementsByClassName("list")
-const input= document.getElementsByTagName("input")
+const list= document.getElementsByClassName("list");
+const input= document.getElementsByTagName("input");
+
+input.add addEventListener()
