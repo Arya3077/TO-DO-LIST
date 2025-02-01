@@ -72,26 +72,9 @@ input:hover{
 
 #list{
     cursor: pointer;
-    padding: 12px 8px 12px 50px;
     color: #e0876a;
+    margin-left: 0ch;
 }
 
-ul li{ list-style: none;
-    user-select: none;
-    padding: 12px 8px 50px 12px;
-    cursor: pointer;
-}
-
-ul li ::before{ content: "";
-    height: 28px;
-    width: 28px;
-    position: absolute;
-    border-radius: 50%;
-   background-image: url(w.jpg) ;
-   background-size:cover ;
-   background-position:center ;
-   top: 12px;
-   left:18px ;
 
 
-}
