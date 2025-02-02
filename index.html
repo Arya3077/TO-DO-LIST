@@ -9,12 +9,18 @@
 <body>
     <div class="container">
         <div class="todolist">
-            <h1>TO-DO LIST <img src="to.png"></h1>
+            <h1>TO-DO LIST <img id="h" src="to.png"></h1>
             <div class="add">
-                <input type="text" id="add" placeholder="Add Your Text">
-                <button>Add</button>
-                <div id="list">
-                  <input class="ch" type="checkbox">
+                <input id="input" type="text" id="add" placeholder="Add Your Text">
+                <button onclick="addtask()">Add</button>
+                <div class="ch">
+                    <ul id="list-container">
+                        <!-- <p class="p"><input  type="checkbox"> list 1</p>
+                        
+                        <p class="p"> <input  type="checkbox">list 1</p>
+                        <p class="p"> <input type="checkbox">list 1</p> -->
+                        
+                </ul>
                 </div>
             </div>
         </div>
