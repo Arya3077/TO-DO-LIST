@@ -23,6 +23,7 @@ function addtask(){
             container.removeChild(p);
         })
 
+
         
 
         checkbox.addEventListener("click",()=>{
@@ -36,6 +37,12 @@ function addtask(){
        
     }
     }
+
+    input.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+            addtask(); // Add task when "Enter" key is pressed
+        }
+    });
 
 
 
