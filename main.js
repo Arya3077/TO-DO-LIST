@@ -12,8 +12,27 @@ function addtask(){
         p.insertBefore(checkbox, p.firstChild);
         container.appendChild(p);
         checkbox.style.marginRight= "10px";
+        let span=document.createElement("span");
+        span.innerHTML="\u00d7";
+        p.appendChild(span);
+        span.classList.add("delete-button");
 
         input.value="";
+
+        span.addEventListener("click",()=>{
+            container.removeChild(p);
+        })
+
+        
+
+        checkbox.addEventListener("click",()=>{
+            if(checkbox.checked){
+                p.style.textDecoration="line-through";
+            }
+            else{ p.style.textDecoration="none";
+
+            }
+        })
        
     }
     }
