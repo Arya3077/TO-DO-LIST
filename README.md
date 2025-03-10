@@ -2,7 +2,7 @@
 <br>
 <h3>This is a simple To-Do List application built using HTML, CSS, and JavaScript. The app allows users to add, delete, and mark tasks as completed.</h3>
 <br>
-<h4>Features
+<h4>>Features
 <br>
 - Add new tasks to the list.<br>
 - Mark tasks as completed or pending.<br>
